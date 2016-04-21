@@ -1,7 +1,9 @@
 # background.py
+# Author Brian.Christner@gmail.com
+# www.brianchristner.io
 
-# Unsplash API Key
-api_key = 'insert Unsplash API key here'
+# Unsplash Application ID
+api_key = 'Insert Unsplash Application ID key here'
 
 ############################################################################
 import subprocess
