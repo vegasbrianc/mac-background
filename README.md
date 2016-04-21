@@ -13,7 +13,11 @@ Make a directory on your Mac and clone this project into this folder. To run the
 
 Once you get the hang of the script you can easily add this to your crontab to run once or several times a day.
 
-# Next steps
+## What's it doing?
+
+The script is calling the Unsplash API for a random picture and copies the picture to /tmp on your Mac. It then uses applescript osascript to set the background and kill the Dock in order for the changes to take place. 
+
+## Next steps
 I will keep adding functionality to this script and may even create a Mac toolbar app.
 
 1. Create options in the script to pull certain category of pictures (Nature, city scapes, etc)
